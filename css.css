@@ -1,0 +1,345 @@
+body {
+  background-color: gray;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* navbar */
+
+#navbarNav {
+  background-color: #f3ae4b;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+#navbarNav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+/* slider */
+.logobar {
+  width: 100px;
+  height:60px;
+  margin-right: 30px;
+}
+
+.slider {
+  border-bottom: #f3ae4b 5px solid;
+  margin-top: 76px;
+  margin-right: 0px;
+  padding: 80px 150px 80px 150px;
+  background-color: #f4f9f4;
+}
+
+.step1 {
+  font-size: 5rem;
+  font-family: 'Lalezar', cursive;
+  color: #f8b739;
+}
+
+.row2 {
+  text-align: center;
+}
+
+.stepfikra {
+  width: 485px;
+  height: 350px;
+  padding-top: 70px;
+}
+
+.aboutidea{
+  margin-right: 300px;
+  text-align: center;
+  width: 190px;
+  height: 110px;
+}
+
+.idea1 {
+  margin-top: 150px;
+  float: right;
+  width: 200px;
+  height: 320px;
+}
+
+/* massenger */
+.massenger {
+  background-image: url("images/background/ff1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: right;
+  padding: 100px 150px 100px 150px;
+  border-bottom: #ee4266 5px solid;
+
+}
+
+.massenger h1 {
+  font-size: 1.5rem;
+  margin-right: 250px;
+  margin-top: 50px;
+}
+
+.massenger p {
+  padding-right: 250px;
+  font-size: 1.2rem;
+}
+
+/* creation */
+.creation {
+
+  font-size: 1.2rem;
+  text-align: right;
+  padding: 20px 400px 100px 200px;
+}
+.creation h1 {
+  font-size: 1.5rem;
+}
+
+/* service */
+.service {
+  border-bottom: #ff8b6a 5px solid;
+  margin-right: 0px;
+  background-color: #f6f5f5;
+  text-align: center;
+  padding: 150px 150px 200px 150px;
+}
+
+.service .row {
+  padding: 40px 1px;
+}
+
+.service .card {
+  height: 200px;
+}
+
+.card p {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.ourservice {
+  width: 190px;
+  height: 110px;
+}
+
+.card {
+  margin: 5px;
+}
+
+.cart-text {
+  width: 200px;
+  height: 200px;
+}
+
+.card-img-top {
+  background-color: #aeddcd;
+}
+
+/* completion */
+.completion .row img:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+.parallax {}
+
+.completion {
+  border-bottom: #014441 5px solid;
+  background-image: url("images/background/tt1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 150px 100px 150px 140px;
+  background-color: #eaf5ff;
+}
+
+.completion .img1 {
+  width: 220px;
+}
+
+.col-1-5 {
+  width: 200px;
+  transform: scale(0.4);
+}
+
+.completion .s5 {
+  margin-top: 120px;
+}
+
+.completion .s4 {}
+
+.completion .s3 {
+  margin-top: 120px;
+}
+
+.completion .s2 {}
+
+.completion .s1 {
+  margin-top: 120px;
+}
+
+/* training */
+
+.training {
+  border-bottom: #f17e7e 5px solid;
+  text-align: center;
+  padding: 60px 220px 40px 220px;
+  background-color: #fffde8;
+}
+
+.training .card {
+  width: 16rem;
+  height: 25rem;
+}
+
+.training-image {
+  width: 250px;
+  padding: 20px 0px;
+}
+
+
+.training .card-body {
+  padding-top: 0px;
+}
+
+.training .card img {
+  transform: scale(0.8);
+}
+.training .card img:hover{
+  transform: scale(1);
+  transition: 1s;
+
+}
+
+.training h5 {
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+.training p {
+  font-size: 15px;
+}
+
+/*التدريبات القادمة و السابقة و الحالية */
+.training-in-out {
+  border-bottom: #f17e7e 5px solid;
+  padding:100px 300px 100px 300px;
+}
+
+.training-in-out .row {
+  text-align: center;
+}
+
+/* بطاقات شكر */
+.thankscard1 {
+  border-bottom: #00d1cd 5px solid;
+  background-color: #f6f5f5;
+  text-align: center;
+  padding: 70px 210px 100px 210px;
+}
+
+.logothanks {
+  margin: 40px 0px;
+  width: 280px;
+  height: 120px;
+}
+
+.container4 {
+  overflow: auto;
+  white-space: nowrap;
+  width: auto;
+  padding: 1rem;
+}
+
+.t1 {
+  padding: 10px;
+  border: 1px solid red;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  white-space: normal;
+}
+
+.container3 img {
+  height: 400px;
+}
+
+/* teachers */
+.teachers {
+  border-bottom: #f9fd50 5px solid;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #fffeec;
+  text-align: center;
+}
+.teacherslogo {
+  height: 100px;
+  margin: 40px 0px;
+}
+.teachersimage {
+  align-items: center;
+  border-radius: 90rem;
+  width: 10rem;
+}
+.teachers .card {
+  padding-top: 20px;
+  text-align: center;
+  border-top: #f9fd50 5px solid;
+}
+
+.teachers h5 {
+  font-size: 1.7rem;
+}
+
+.teachers p {
+  font-size: 1.2rem;
+}
+.teachersimage:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+/* contactus */
+.contactus {
+  color: #fffeec;
+  background-color: #621e81;
+  text-align: center;
+}
+
+.contactus .row {
+  margin-right: 0px;
+}
+
+.contactus .col-4 {
+  padding: 40px 100px;
+}
+
+h3 {
+  padding-bottom: 50px;
+  color: #f0f69f;
+}
+
+.locationtext {
+  float: right;
+}
+
+.contactus .map {
+  padding-top: 20px;
+  margin-left: 300px;
+  opacity: 0.5;
+  display: block;
+  position: absolute;
+  width: 800px;
+  height: 300px;
+}
